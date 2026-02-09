@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angela Han — Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 60px;
+      margin-top: 40px;
+    }
+    .info-item {
+      margin-bottom: 20px;
+    }
+    .info-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #999999;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    .contact-form-wrapper {
+      background-color: #F9FAFB;
+      padding: 40px;
+      border-radius: 8px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333333;
+    }
+    .form-control {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #DDDDDD;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #FFFFFF;
+      font-family: inherit;
+    }
+    .submit-btn {
+      background-color: #111111;
+      color: #FFFFFF;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      width: 100%;
+    }
+    .submit-btn:hover {
+      background-color: #444444;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">Angela Han</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-services">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h1 style="font-size: clamp(32px, 5vw, 42px); margin-bottom: 20px; font-weight: normal;">Let's start a project together.</h1>
+            <p style="font-size: 18px; color: #666666; margin-bottom: 40px;">
+              I'm currently accepting new freelance projects. Whether you need a website redesign or a brand new identity, I'd love to hear from you.
+            </p>
+            <div class="info-item">
+              <span class="info-label">Email</span>
+              <a href="mailto:hello@angelahan.com" style="font-size: 18px;">hello@angelahan.com</a>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span style="font-size: 18px;">Boston, MA</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Socials</span>
+              <a href="https://www.linkedin.com/in/angela-han-719010222" style="font-size: 18px;">LinkedIn</a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <form action="#" method="GET">
+              <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Jane Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="jane@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="project" class="form-label">Project Type</label>
+                <select id="project" name="project" class="form-control">
+                  <option value="web-design">Web Design</option>
+                  <option value="branding">Branding</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Angela Han. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:hello@angelahan.com">Email</a>
+        <a href="https://www.linkedin.com/in/angela-han-719010222">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angela Han — Freelance Designer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .form-inline {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .form-input {
+      padding: 15px;
+      border: none;
+      border-radius: 4px;
+      width: 250px;
+      max-width: 100%;
+      font-size: 14px;
+    }
+    .form-btn {
+      padding: 15px 30px;
+      background-color: #FFFFFF;
+      color: #000000;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .form-btn:hover {
+      background-color: #CCCCCC;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">Angela Han</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="hero-label">Freelance Designer</span>
+        <h1 class="hero-title">
+          Hi, I'm Angela. I design websites and digital products for clients who need clear and usable experiences.
+        </h1>
+      </div>
+    </section>
+
+    <section class="section-services">
+      <div class="container">
+        <h2 class="section-title">What I Do</h2>
+        <p class="section-subtitle">I offer UI/UX design and visual design services.</p>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <h3 class="card-title">UI/UX Design</h3>
+            <p class="card-desc">
+              User flows, wireframes, and interface design. I create digital experiences that are intuitive.
+            </p>
+            <ul class="service-list">
+              <li>— User flows</li>
+              <li>— Wireframes</li>
+              <li>— Interface design</li>
+              <li>— Prototyping</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <h3 class="card-title">Visual Design</h3>
+            <p class="card-desc">
+              Layout, typography, and visual systems for digital products.
+            </p>
+            <ul class="service-list">
+              <li>— Layout design</li>
+              <li>— Typography</li>
+              <li>— Visual systems</li>
+              <li>— Brand assets</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-process">
+      <div class="container">
+        <h2 class="section-title">Process</h2>
+        <div class="process-grid">
+          <div>
+            <span class="step-number">01</span>
+            <h3 class="card-title">Understanding</h3>
+            <p class="card-desc">Projects begin with understanding goals and constraints.</p>
+          </div>
+          <div>
+            <span class="step-number">02</span>
+            <h3 class="card-title">Exploration</h3>
+            <p class="card-desc">Design solutions are explored through structure and layout.</p>
+          </div>
+          <div>
+            <span class="step-number">03</span>
+            <h3 class="card-title">Handoff</h3>
+            <p class="card-desc">Final designs are prepared for development and handoff.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact-area">
+      <div class="container">
+        <div class="contact-box">
+          <h2 class="contact-title">Get in Touch</h2>
+          <p class="contact-text">
+            If you have a project in mind, get in touch. Enter your email below.
+          </p>
+          <form action="#" method="GET" class="form-inline">
+            <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+            <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+            <button type="submit" class="form-btn">Contact →</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Angela Han. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:hello@angelahan.com">Email</a>
+        <a href="https://www.linkedin.com/in/angela-han-719010222">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

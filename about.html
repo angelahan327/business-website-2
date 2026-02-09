@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angela Han — About</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 60px;
+      align-items: center;
+      margin-top: 40px;
+    }
+    .about-image {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 4px 12px #0000001A;
+    }
+    .skills-section {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid #EEEEEE;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .skill-tag {
+      background-color: #F3F4F6;
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 14px;
+      color: #333333;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <a href="index.html" class="logo">Angela Han</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-services"> 
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h1 style="font-size: clamp(32px, 5vw, 42px); margin-bottom: 24px; font-weight: normal;">A designer who codes.</h1>
+            <p style="margin-bottom: 20px; color: #555555;">
+              Hello! I'm Angela, a freelance product designer based in Boston. I am currently studying web programming and design, focusing on the intersection of creativity and technology.
+            </p>
+            <p style="margin-bottom: 20px; color: #555555;">
+              My journey began in fine arts, but I quickly realized that I wanted to create things that people use every day. I love solving complex problems and turning them into simple, beautiful interface designs.
+            </p>
+            
+            <div class="skills-section">
+              <h3 style="font-size: 18px; margin-bottom: 15px;">My Toolkit</h3>
+              <ul class="skills-list">
+                <li class="skill-tag">Figma</li>
+                <li class="skill-tag">HTML5 & CSS3</li>
+                <li class="skill-tag">Adobe Creative Suite</li>
+                <li class="skill-tag">User Research</li>
+                <li class="skill-tag">Prototyping</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <img src="about-me.jpg" alt="Angela Han Portrait" class="about-image">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Angela Han. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="mailto:hello@angelahan.com">Email</a>
+        <a href="https://www.linkedin.com/in/angela-han-719010222">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
